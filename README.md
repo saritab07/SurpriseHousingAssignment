@@ -1,4 +1,10 @@
 # SurpriseHousingAssignment
+## Table of Contents
+* [Problem Statement](#problem_statement)
+* [Solution](#solution)
+* [Conclusions](#conclusions)
+* [Programming Language Used](#programming-language-used)
+* [Acknowledgements](#acknowledgements)
 ## Problem Statement
 A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
 
@@ -6,9 +12,9 @@ The company is looking at prospective properties to buy to enter the market. We 
 
 The company wants to know:
 
-Which variables are significant in predicting the price of a house, and
+- Which variables are significant in predicting the price of a house, and
 
-How well those variables describe the price of a house.
+- How well those variables describe the price of a house.
 
 Target Variable is the SalePrice.
 
@@ -40,3 +46,13 @@ Based on the analysis it is found that the Significant variables in predicting t
 Also, based on the model comparison results, we notice that Lasso regression model has slightly higher R2 Scores and slightly lesser MSE value compared to Ridge Model. This suggests that the Lasso regression model is performing better in terms of prediction accuracy on your specific dataset.
 
 Therefore, the variables predicted by Lasso in the bar chart(in the Jupyter notebook) as significant variables for predicting the price of a house.
+
+## Programming Language Used
+Python
+
+## Acknowledgement
+- This project was based on Upgrad course on ML 
+
+
+## Contact
+Created by [Sarita Behera](@saritab07) - feel free to contact me!
